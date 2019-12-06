@@ -268,3 +268,46 @@ footer nav a {
 .about-content {
     margin: 2%;
 }
+
+hr {
+    border-style: dashed;
+}
+
+.top-content-about {
+    display: flex;
+    margin: 3% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.top-content-about .text-container {
+    width: 48%;   
+}
+
+.middle-content-about {
+    display: flex;
+    margin: 7% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.middle-content-about .text-container {
+    width: 48%;  
+}
+
+
+.text-container h2 {
+    margin-top: 2%;
+}
+
+.text-container button {
+    margin: 4% 0 1% 0;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 28%;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom-content-about {
+    margin: 6% 1% 4% 1%;
+}
