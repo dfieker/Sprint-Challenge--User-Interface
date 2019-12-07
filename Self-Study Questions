@@ -1,0 +1,14 @@
+Self-Study Questions
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? = It's using tags in HTML that provide meaning.
+
+2. Name two big differences between display: block; and display: inline;. = Display: block takes up as much width as its parent element will allow, and also, both height and width can be used to adjust sizing of the element. Display: inline only takes up as much space as its content, and also, height and width properties have no effect.
+
+3. What are the 4 areas of the box model? = content, padding, border, and margin
+
+4. While using flexbox, what axis does the following property work on: align-items: center? = the cross axis
+
+5. Explain why git is valuable to a team of developers. = It helps with collaboration among developers and it helps with the organization of project completion. It also acts as a backup for developers' work.

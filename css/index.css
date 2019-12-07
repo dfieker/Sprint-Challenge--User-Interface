@@ -71,12 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    margin: 2% 0 4% 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 85%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 2%;
 }
 
 .top-content .text-container {
@@ -101,10 +119,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +260,124 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About.html Page*/
+
+.about-content {
+    margin: 2%;
+}
+
+hr {
+    border-style: dashed;
+}
+
+.top-content-about {
+    display: flex;
+    margin: 3% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.top-content-about .text-container {
+    width: 48%;
+    border-bottom: 1px dashed black; 
+}
+
+.middle-content-about {
+    display: flex;
+    margin: 7% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.middle-content-about .text-container {
+    width: 48%; 
+    border-bottom: 1px dashed black; 
+}
+
+
+.text-container h2 {
+    margin-top: 2%;
+}
+
+.text-container button {
+    margin: 4% 0 1% 0;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 28%;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom-content-about {
+    margin: 6% 1% 4% 1%;
+}
+
+
+
+
+/*Products Page*/
+
+.top-img-products {
+    max-width: 100%;
+    height: auto;
+}
+
+.products-content {
+    border-bottom: 1px dashed black;
+}
+.products-content h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.top-content-products {
+    display: flex;
+    margin: 3% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.top-content-products .text-container {
+    width: 48%;
+}
+
+.middle-content-products {
+    display: flex;
+    margin: 7% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.middle-content-products .text-container {
+    width: 48%; 
+    
+}
+
+.text-container .product-img {
+    width: 350px;
+    height: 350px;
+}
+.text-container h2 {
+    margin-top: 2%;
+}
+
+.text-container button {
+    margin: 4% 0 1% 0;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 28%;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom-content-products {
+    margin: 6% 1% 4% 1%;
+    border-top: 1px dashed black; 
+}
+
+.bottom-content-products h2 {
+    text-align: center;
+    margin-top: 4%;
 }
